@@ -20,10 +20,9 @@ export const company = {
   yearsExperience: 40,
   insurers: 12,
   regulators: ["CMF — Comisión para el Mercado Financiero", "ANS — Asociación Nacional de Seguros"],
-  // TODO: replace with the real Google Form URL from the client
   googleFormUrl:
-    "https://docs.google.com/forms/d/e/1FAIpQLScPLACEHOLDER/viewform?embedded=true",
-  googleFormUrlShare: "https://forms.gle/PLACEHOLDER",
+    "https://docs.google.com/forms/d/e/1FAIpQLScKoDzINjkyCJzsi05Hr4ZJmN3g8yDOLOcKX7n6t5quPzCtmA/viewform?embedded=true",
+  googleFormUrlShare: "https://forms.gle/bmGtgTQ2E7eTiYPd7",
   url: "https://segurosaegis.cl",
   stats: [
     { label: "años de experiencia", value: "40+" },
