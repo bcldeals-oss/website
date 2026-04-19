@@ -24,6 +24,7 @@ export interface Product {
 export interface Partner {
   name: string;
   slug: string;
+  ext: string;
   width: number;
   height: number;
 }

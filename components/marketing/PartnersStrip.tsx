@@ -29,7 +29,7 @@ export function PartnersStrip({
               title={p.name}
             >
               <Image
-                src={asset(`/partners/${p.slug}.svg`)}
+                src={asset(`/partners/${p.slug}.${p.ext}`)}
                 alt={p.name}
                 width={p.width}
                 height={p.height}
