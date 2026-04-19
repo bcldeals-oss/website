@@ -12,11 +12,11 @@ export function Footer() {
       <Container className="grid gap-10 py-14 md:grid-cols-[1.25fr_1fr_1fr] md:gap-14 md:py-20">
         <div className="space-y-5">
           <Image
-            src={asset("/logo.svg")}
+            src={asset("/logo.png")}
             alt={company.name}
             width={200}
-            height={44}
-            className="h-10 w-auto brightness-0 invert"
+            height={200}
+            className="h-12 w-auto"
           />
           <p className="max-w-sm text-sm leading-relaxed text-primary-foreground/70">
             {company.descriptionShort}
