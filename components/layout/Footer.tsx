@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Mail, Phone, MapPin, ShieldCheck } from "lucide-react";
+import { asset } from "@/lib/asset";
 import { Container } from "@/components/ui/container";
 import { company } from "@/content/company";
 import { footerNav } from "@/content/navigation";
@@ -11,7 +12,7 @@ export function Footer() {
       <Container className="grid gap-10 py-14 md:grid-cols-[1.25fr_1fr_1fr] md:gap-14 md:py-20">
         <div className="space-y-5">
           <Image
-            src="/logo.svg"
+            src={asset("/logo.svg")}
             alt={company.name}
             width={200}
             height={44}

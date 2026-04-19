@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { company } from "@/content/company";
@@ -67,7 +68,7 @@ export function Hero() {
         <div className="relative hidden lg:block">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl shadow-2xl ring-1 ring-primary-foreground/10">
             <Image
-              src="/hero-family.png"
+              src={asset("/hero-family.png")}
               alt="Familia chilena frente a su hogar al atardecer"
               fill
               sizes="(min-width: 1024px) 28rem, 0px"

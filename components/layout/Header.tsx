@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Phone } from "lucide-react";
+import { asset } from "@/lib/asset";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { mainNav } from "@/content/navigation";
@@ -17,7 +18,7 @@ export function Header() {
           aria-label={`${company.name} — Inicio`}
         >
           <Image
-            src="/logo.svg"
+            src={asset("/logo.svg")}
             alt={company.name}
             width={200}
             height={44}
